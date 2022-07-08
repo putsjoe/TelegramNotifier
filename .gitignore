@@ -1,0 +1,8 @@
+data.db
+data.db*
+*.sqlite3
+*.txt.swp
+env
+.env
+__pycache__
+config.p

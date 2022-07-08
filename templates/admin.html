@@ -1,0 +1,41 @@
+
+<title>TelegramNotifier Admin</title>
+
+<h1>User Admin</h1>
+
+<form method=post>
+    <label for="uid">Telegram User ID</label>
+    <input name="user_id" id="uid" value="{{ user_id }}">
+    <br><br>
+    <label for="btk">Bot Token</label>
+    <input name="bot_token" id="btk" value="{{ bot_token }}">
+    
+    
+    <br><br><br>
+    <input type="submit" value="Save">
+    
+</form>
+
+<hr>
+<h2>Token</h2>
+<p>Pass this with any API requests:</p>
+<p><strong>{{ api_token }}</strong></p>
+
+<form method=post>
+    <input type="submit" name="new_token" value="Generate new token">
+</form>
+
+
+<style>
+    label {
+        display: inline-block;
+        min-width: 125px;
+    }
+    input {
+        font-size: 1.15em;
+        padding: 3px;
+    }
+    strong {
+        font-size: 1.2em;
+    }
+</style>
