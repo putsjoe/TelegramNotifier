@@ -15,8 +15,8 @@ Simply passes on a message to a given telegram bot and specific user, so the tel
 
 ## Environment Variables
 
-ADMIN_URL=/user-admin/ - Changes the admin URL the user uses to change settings.
+ADMIN_URL = /user-admin/ - Changes the admin URL the user uses to change settings.
 
-NOTIFY_URL=/notify/ - The url to send notification API calls to.
+NOTIFY_URL = /notify/ - The url to send notification API calls to.
 
 USER_NAME, USER_PASS - The username and password to use when logging into the admin url. The default is admin/admin
